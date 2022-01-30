@@ -1,8 +1,8 @@
 tasks:
   - init: |
-      echo 'TODO: build project'
+      
     command: |
-      docker-compose up
+      /bin/bash init.sh
 ports:
   - port: 8080
     onOpen: open-browser

@@ -1,13 +1,13 @@
 version: '3'
 services:
-  alpha:
-    container_name: alpha
-    image: alpha
+  login:
+    container_name: login
+    image: login
     ports:
       - 8080:80
-  beta:
-    container_name: beta
-    image: beta
+  registration:
+    container_name: registration
+    image: registration
     ports:
       - 8081:80
   #nginx:
@@ -16,5 +16,5 @@ services:
   #  depends_on:
   #  - beta
   #  - alpha
-  #  ports:git 
+  #  ports:
   #    - 9000:80
